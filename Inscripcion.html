@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <title>ISFTN°151</title>
+
+    
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+<header>
+    <img src="../Datos/picture/azul.png" alt="logo">
+
+    
+    <h1>Instituto superior de formacion tecnica N°151</h1>
+
+</header>
+<div class="nav-bg"><!--para dar propiedad a la barra de navegacion-->
+  <nav class="navegacion-principal contenedor"> <!--CAMBIAR COLOR EN LA BARRA DE NAVEGACION -->
+      <a href="Index.html" >Inicio</a>
+      <a href="Inscripcion.html" >Inscripción</a>
+      <a href="Carreras.html" >Carreras</a>
+    
+  </nav>
+</div>
+
+</header>     
+
+<body>
+        
+        <h1>Busca tu futuro</h1>
+        <p>Completa el formulario de inscripción para la carrera de tu elección:</p>
+
+        <form class="registration-form" action="/procesarFormulario" method="post">
+            <h4>Formulario de inscripción</h4>
+            <select class="course-select" name="carrera" required>
+                <option value="" disabled selected>Selecciona una carrera</option>
+                <!-- Opciones de carrera aquí -->
+            </select>
+            <input class="controls" type="text" name="nombre" placeholder="Ingrese su Nombre" required>
+            <input class="controls" type="text" name="correo" placeholder="Ingrese su Email" required>
+            <input class="botton" type="submit" value="Enviar">
+        </form>
+        
+
+         <script src="java/java.js"></script>
+    
+
+
+
+</body>
+
+
+
+
+
+</html>

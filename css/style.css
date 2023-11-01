@@ -1,0 +1,210 @@
+ /* Estilos para la página */
+
+ body {
+   background: #74cafc;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+
+ body p {
+   text-align: left;
+
+
+ }
+
+ .TexInicio {
+
+   text-align: center;
+
+   margin: 50px;
+   font-size: 17px;
+   color: #000000;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ 
+ header {
+   display: flex;
+   min-height: 70px;
+
+
+   background-color: #161717;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 40px;
+
+ }
+
+ header h1 {
+
+   margin: 0;
+   font-size: 26px;
+   color: #ffffff;
+ }
+
+ header img {
+   display: flex;
+   max-width: 100%;
+   /* La imagen se ajustará al ancho del contenedor */
+   height: 80px;
+   /* La altura se ajustará automáticamente */
+   margin-right: 10px;
+ }
+
+
+
+ /* Style the top navigation bar */
+
+ .nav-bg {
+   background-color: rgb(65, 91, 117);
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+
+
+
+ .navegacion-principal {
+   display: flex;
+   float: left;
+   justify-content: space-between;
+   /*propiedad que permite distribuir de forma proporcional los elementos de la barra de navegacion*/
+ }
+
+
+ .navegacion-principal a {
+
+   display: block;
+
+   text-align: center;
+   text-decoration: none;
+   /*propiedad que permite quitar subrayado al enlance*/
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 19px;
+   color: rgb(141, 175, 191);
+   /*color de la fuente*/
+   padding: 14px 16px;
+
+
+ }
+
+
+
+ .navegacion-principal a:hover {
+   background-color: rgb(174, 212, 255);
+   /**/
+   color: rgb(82, 131, 171);
+   /*cambia el color al acercar el mouse*/
+
+ }
+
+
+ .EDUCATIVA {
+   text-align: center;
+   background-color: #aebdf5;
+
+ }
+
+
+
+
+
+
+
+
+
+ /* Estilos adicionales para la sección de inscripción */
+ .registration-form {
+
+   width: 400px;
+   background: #371713;
+   padding: 30px;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 4px;
+   font-family: 'Calibri';
+ }
+
+ .registration-form h4 {
+   font-size: 22px;
+   margin-bottom: 20px;
+   color: rgb(255, 255, 255);
+ }
+
+ .registration-form .controls {
+   background: #401818;
+   color: whitesmoke;
+   width: 95%;
+   padding: 10px;
+   border-radius: 4px;
+   margin-bottom: 14px;
+   border: 1px solid #ff5b5b;
+   font-family: 'Calibri';
+   font-size: 18px;
+ }
+
+ .botton {
+
+   width: 100%;
+   background-color: #0a1722;
+   color: #d7f0ff;
+
+   border-radius: 4px;
+   padding: 10px;
+   margin: 16px 0;
+   cursor: pointer;
+ }
+
+ /* Estilos para el contenedor de carreras */
+ .careers-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 90%;
+   margin: 0 auto;
+ }
+
+ /* Estilos para las secciones de carrera */
+ .ColumnasParaCarreras {
+   text-align: center;
+   margin: 20px 0;
+   padding: 20px;
+   background-color: #bcd2ff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   width: calc(20.33% - 40px);
+ }
+
+
+
+ .ColumnasParaCarreras a {
+   text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+ footer {
+   background-color: #aad9ff;
+   padding: 40px;
+   margin-bottom: 30px;
+ }
+
+ footer a {
+   padding: 40px;
+   text-decoration: none;
+   margin-bottom: 30px;
+   justify-content: space-between;
+   color: black;
+
+ }
+
+ a[href^="#"] {
+   color: #0d0e0f;
+   text-decoration: none;
+ }
