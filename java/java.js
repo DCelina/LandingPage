@@ -64,7 +64,7 @@ function handleFormSubmit(event) {
        // Redirigir al usuario al formulario de Google
        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSd34R95kIqtIdDMqbkVsxfGOqjVvRwBdVy8zvmSo6QY0fXeeQ/viewform?usp=pp_url"; // Reemplaza con la URL correcta
 
-        // Puedes agregar una confirmación o mensaje de éxito si lo deseas
+        
        alert("Formulario enviado correctamente. Serás redirigido al formulario de Google.");
     } else {
      // Mostrar un mensaje de error si no se completan todos los campos
