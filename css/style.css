@@ -1,60 +1,78 @@
+/*para quitar el margen de la cabezera*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
  /* Estilos para la página */
 
  body {
    background: #74cafc;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  
  }
 
-
- body p {
-   text-align: left;
-
-
- }
-
- .TexInicio {
+/*parrafo del html inscripcion */
+ body h1, p {
+   margin: 20px 20px;
+   
+  
+  }
+ /*inicio muestra educativa*/
+  .TexInicio {
 
    text-align: center;
-
+  
    margin: 50px;
    font-size: 17px;
    color: #000000;
    font-family: Georgia, 'Times New Roman', Times, serif;
- }
+  }
 
- 
- header {
+  .TexInicio p{
+    margin-top: 15px;
+    }
+  
+   
+  .EDUCATIVA {
+   text-align: center;
+   background-color: #aebdf5;
+  }
+  .EDUCATIVA h1{
+    
+    padding: 30px;
+  }
+
+
+   header {
    display: flex;
-   min-height: 70px;
-
+   height: 100px;
+   margin: 0 auto;
 
    background-color: #161717;
    justify-content: space-between;
    align-items: center;
    padding: 10px 40px;
 
- }
+  }
 
  header h1 {
-
-   margin: 0;
+  font-family:  monospace;
+   margin: 0 auto;
    font-size: 26px;
    color: #ffffff;
  }
 
  header img {
    display: flex;
-   max-width: 100%;
-   /* La imagen se ajustará al ancho del contenedor */
+   width: 80px;
    height: 80px;
-   /* La altura se ajustará automáticamente */
-   margin-right: 10px;
+   margin-right: 20px;
  }
 
 
 
- /* Style the top navigation bar */
+ /* estilo para la barra de menu*/
 
  .nav-bg {
    background-color: rgb(65, 91, 117);
@@ -62,6 +80,7 @@
    margin: 0;
    padding: 0;
    overflow: hidden;
+  
  }
 
 
@@ -75,9 +94,8 @@
 
 
  .navegacion-principal a {
-
    display: block;
-
+  
    text-align: center;
    text-decoration: none;
    /*propiedad que permite quitar subrayado al enlance*/
@@ -97,13 +115,6 @@
    /**/
    color: rgb(82, 131, 171);
    /*cambia el color al acercar el mouse*/
-
- }
-
-
- .EDUCATIVA {
-   text-align: center;
-   background-color: #aebdf5;
 
  }
 
@@ -132,6 +143,16 @@
    margin-bottom: 20px;
    color: rgb(255, 255, 255);
  }
+ .course-select{
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  width: 100%;
+  background: #49587f;
+  color: whitesmoke;
+ 
+ }
 
  .registration-form .controls {
    background: #401818;
@@ -139,8 +160,8 @@
    width: 95%;
    padding: 10px;
    border-radius: 4px;
-   margin-bottom: 14px;
    border: 1px solid #ff5b5b;
+   margin-bottom: 14px;
    font-family: 'Calibri';
    font-size: 18px;
  }
@@ -153,17 +174,18 @@
 
    border-radius: 4px;
    padding: 10px;
-   margin: 16px 0;
+   margin-bottom: 14px ;
    cursor: pointer;
  }
 
- /* Estilos para el contenedor de carreras */
+ /* Estilos para el contenedor de carreras 
+ pertenece al html carreras */
  .careers-container {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    width: 90%;
-   margin: 0 auto;
+   margin: auto ;
  }
 
  /* Estilos para las secciones de carrera */
@@ -177,17 +199,24 @@
  }
 
 
-
+/*botones que llevan a los pdf */
  .ColumnasParaCarreras a {
    text-decoration: none;
- }
+   display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #296f9e;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #3498db;
+  transition: background-color 0.3s ease;
+}
 
 
 
 
-
-
-
+/*Estilos para el pie de pagina*/
 
  footer {
    background-color: #aad9ff;
@@ -195,6 +224,10 @@
    margin-bottom: 30px;
  }
 
+  footer h3{
+  margin: 15px;
+
+}
  footer a {
    padding: 40px;
    text-decoration: none;
@@ -202,9 +235,4 @@
    justify-content: space-between;
    color: black;
 
- }
-
- a[href^="#"] {
-   color: #0d0e0f;
-   text-decoration: none;
  }
